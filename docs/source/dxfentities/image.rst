@@ -6,7 +6,7 @@ Image
 
 Add a raster IMAGE (`DXF Reference`_) to the DXF file, the file itself is not embedded into the DXF file, it is always a separated file.
 The IMAGE entity is like a block reference, you can use it multiple times to add the image on different locations
-with different scales and rotations. But therefore you need a also a IMAGEDEF entity, see :class:`ImageDef`.
+with different scales and rotations. But therefore you need also an IMAGEDEF entity, see :class:`ImageDef`.
 `ezdxf` creates only images in the xy-plan, you can place images in the 3D space too, but then you have to set
 the :attr:`Image.dxf.u_pixel` and the :attr:`Image.dxf.v_pixel` vectors by yourself.
 
